@@ -1,0 +1,484 @@
+<!doctype html>
+<html amp lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+        <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+        <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+
+        <title>Honda Banzai</title>
+        <link rel="canonical" href="index_amp.html">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "headline": "Honda Banzai",
+            "datePublished": "2015-10-07T12:02:41Z",
+            "author": {
+                "@type": "Person",
+                "name": "Matheus"
+            },
+            }
+        </script>
+        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <style amp-custom>
+            nav{
+                background-color: #EEEEEE;
+                padding: 10px 0;
+            }
+            .img-home{
+                background-image: url("assets/img/icons/home-button.png");
+                width: 28px;
+                height: 28px;
+                background-position: -30px -25px;
+            }
+            .img-ping{
+                background-image: url('assets/img/icons/ping2.png');
+                width: 19px;
+                height: 25px;
+                background-position: -17px -25px;
+            }
+            .img-email{
+                background-image: url('assets/img/icons/black-envelope.png');
+                width: 24px;
+                height: 18px;
+                background-position: -23px 18px;
+            }
+            .flex-center{
+                display: flex;
+                justify-content: center;
+            }
+            .flex-around{
+                display: flex;
+                justify-content: space-around;
+            }
+            .align-center{
+                display: flex;
+                align-items: center;
+            }
+
+            section{
+                margin: 20px 0;
+            }
+
+            .div-logo{
+                margin-bottom: 50px;
+            }
+
+            .contato-logo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .contato-logo p{
+                margin: 0;
+            }
+
+            .p-title-fone{
+                color: #727B7A;
+                font-style: italic;
+                font-size: 16px;
+            }
+            .p-fone{
+                color: #DF0209;
+                font-size: 26px;    
+            }
+
+            .p-title-section-4, .title-honda{
+                text-align: center;
+                font-size: 24px;
+                font-style: italic;
+            }
+            .p-civic-branco{
+                text-align: center;
+                font-size: 18px;
+            }
+            .div-text-civic{
+                position: relative;
+                top: -180px;
+            }
+            .p-title-civic-branco{
+                font-size: 24px;
+                text-align: center;
+                font-style: italic;
+                color: #FFFFFF;
+            }
+            .p-sub-civic-branco{
+                text-align: center;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+            .p-sub-honda{
+                text-align: center;
+                font-size: 16px;
+            }
+            .btn-conheca{
+                border: solid 1px #D5D5D5;
+                width: 80%;
+                padding: 8px;
+                color: black;
+                text-align: center;
+                font-size: 14px;
+            }
+            .section-8{
+                background-color: #EEEEEE;
+                padding: 15px 0;
+            }
+            .div-cor{
+                background: #FFFFFF;
+                border: 1px solid #DF0209;
+                border-radius: 5px;
+                padding: 20px;
+                text-align: center;
+                margin: 10px;
+            }
+            .p-title-ping{
+                text-align: left;
+                font-size: 14px;
+                margin: 0;
+                padding-left: 10px;
+                color: black;
+                text-decoration: none;
+                
+            }
+            .p-sub-ping{
+                text-align: left;
+                font-size: 22px;
+                color: #DF0209;
+                margin: 0;
+                padding-left: 10px;
+            }
+            .p-siga{
+                font-size: 18px;
+                text-align: center;
+                font-style: italic;
+            }
+
+            .social-icons{
+                margin: 0px 5px;
+            }
+
+            .div-logos{
+                margin: 20px 0;
+            }
+
+            .div-form{
+                width: 300px;
+                height: 400px;
+                background: #EEEEEE;
+                border-radius: 4px;
+                padding: 10px 20px;
+                display: flex;
+                justify-content: center;
+            }
+            .btn-agendar{
+                background-color: #1CB72A;
+                width: 100%;
+                border-radius: 4px;
+                border: solid 1px #1CB72A;
+                padding: 14px;
+                color: white;
+                font-size: 14px;
+            }
+
+            .btn-agendar:hover{
+                background-color: white;
+                border-color: #1CB72A;
+                color: #1CB72A;
+            }
+            .form-control{
+                display: block;
+                width: 85%;
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                border-radius: .25rem;
+                color: #00000061;
+                background-color: #EEEEEE;
+                border: 1px solid #C5C5C5;
+                border-radius: 4px;
+                margin: 5px 0;
+            }
+
+            .p-solicitar{
+                font-size: 14px;
+                text-align: left;
+                padding: 0px 10px;
+                margin:0;
+            }
+            .p-contato{
+                font-size: 22px;
+                text-align: left;
+                padding: 0px 10px;
+                color: #DF0.209;
+                margin:0;
+            }
+            input[name=nome]{
+                background: url('../assets/img/icons/nome.png') no-repeat  7px 7px;
+                padding-left:25px;
+            }
+
+            input[name=telefone]{
+                background: url('../assets/img/icons/telefone-2.png') no-repeat  7px 7px;
+                padding-left:25px;
+            }
+
+            input[name=email]{
+                background: url('../assets/img/icons/email.png') no-repeat  7px 7px;
+                padding-left:25px;
+            }
+
+            select[name=unidade]{
+                background: url('../assets/img/icons/unidade.png') no-repeat  7px 7px;
+                padding-left:25px;
+                width: 102%;
+            }
+
+            select[name=horario]{
+                background: url('../assets/img/icons/horario.png') no-repeat  7px 7px;
+                padding-left:25px;
+                width: 102%;
+            }
+            .section-carousel{
+                top: -100px;
+                position: relative;
+            }
+            .p-carousel{
+                text-align: center;
+                font-size: 20px;
+                font-style: italic;
+                line-height: 1;
+            }
+            .p-sub-caroulsel{
+                text-align: center;
+                font-size: 14px;
+                line-height: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <div class="flex-around">
+                <div class="item-menu">
+                    <a href="">
+                    <div class="img-home"></div>
+                    </a>
+                </div>
+                <div class="item-menu">
+                    <a href="">
+                        <div class="img-ping"></div>
+                    </a>
+                </div>
+                <div class="item-menu align-center">
+                    <a href="">
+                        <div class="img-email"></div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <article>
+            <section class="section-1">
+                <div class="div-logo flex-center">
+                    <amp-img src="assets/img/logos/logo.png" alt="Logo" width="200" height="52"></amp-img>
+                </div>
+                <div class="contato-logo">
+                    <p class="p-title-fone">CENTRAL DE ATENDIMENTO</p>
+                    <p class="p-fone">(31) 3123-1234</p>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <section class="section-2">
+                <div class="img-civic-preto">
+                    <amp-img src="assets/img/capa/civic-preto.png" alt="Logo" width="375" height="200"></amp-img>
+                </div>
+                <div class="img-civic-10">
+                    <amp-img src="assets/img/capa/nome.png" alt="Logo" width="375" height="24"></amp-img>
+                </div>
+            </section>
+        </article>
+
+        <!-- Form -->
+        <article>
+            <section class="section-form">
+                <div class="flex-center">
+                    <div class="div-form">
+                        <div class="">
+                            <div class="align-center">
+                                <amp-img src="assets/img/icons/telefone.png" alt="Telefone" width="30" height="50"></amp-img>
+                                <div>
+                                    <p class="p-solicitar">Solicitar um</p>
+                                    <p class="p-contato">Contato</p>
+                                </div>
+                            </div>
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-sm" name="nome" placeholder="Nome">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form-control-sm" name="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control form-control-sm" name="telefone" placeholder="Telefone">
+                                </div>
+                                <div class="form-group">
+                                    <select  class="form-control form-control-sm" name="horario" placeholder="Escolha o horário">
+                                        <option selected value="">Escolha o horário</option>
+                                        <option value="">Escolha o horário</option>
+                                        <option value="">Escolha o horário</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control form-control-sm"  name="unidade" placeholder="Escolha a unidade">
+                                        <option selected value="">Escolha a unidade</option>
+                                        <option value="">Escolha a unidade</option>
+                                        <option value="">Escolha a unidade</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-agendar" name="btn-agendar">AGENDAR TEST DRIVE</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <section class="section-4">
+                <div class="">
+                    <p class="p-title-section-4">A EMOÇÃO DE DIRIGIR LEVA VOCÊ MAIS LONGE</p>
+                </div>
+                <div class="flex-center">
+                    <amp-img src="assets/img/civic-branco/juntosi.png" alt="Logo" width="320" height="100"></amp-img>
+                </div>
+                <div class="">
+                    <p class="p-civic-branco">O novo Civic Geração 10 traz um design único mudando a categoria de sedãs para sempre. Ele garante a melhor dirigibilidade com o máximo em sofisticação e conforto, atribuído por seu design interno e diferenciada ergonomia.</p>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <section class="section-5">
+                <div class="div-painel align-center">
+                    <amp-img src="assets/img/civic-branco/painel-mobile.png" alt="Logo" width="375" height="415"></amp-img>
+                </div>
+                <div class="div-text-civic">
+                    <p class="p-title-civic-branco">
+                        PREPARE-SE PARA ALGO REALMENTE NOVO
+                    </p>
+                    <p class="p-sub-civic-branco">
+                        O Novo Civic Geração 10 vem completo de série. Conheça a versão perfeita para você.
+                    </p>
+                </div>
+            </section>
+        </article>
+
+        <!-- Carousel -->
+        <article>          
+            <section class="section-carousel"></section>
+                <amp-carousel controls class="caroulsel"  layout="responsive" height="700" width="500" type="slides" [slide]="selectedSlide" on="slideChange:AMP.setState({ selectedSlide: event.index })">
+                    <div class="slide">
+                            <amp-img src="assets/img/interior/direcao.png" width="450" height="300"></amp-img>
+                            <amp-fit-text layout="responsive" width="450" height="300">
+                                <p class="p-carousel">Direção com Assistência</p>
+                                <p class="p-sub-caroulsel">Sistema de estabilidade que reforça automaticamente o retorno da direção, auxiliando o motorista em situações onde o carro está ameaçado de instabilidade.</p> 
+                            </amp-fit-text>
+                    </div>
+
+                    <div class="slide">
+                            <amp-img src="assets/img/interior/vidros.png" width="450" height="300" ></amp-img>
+                            <amp-fit-text layout="responsive" width="450" height="300">
+                                <p class="p-carousel">Vidros elétricos com subida automática</p>
+                                <p class="p-sub-caroulsel">Todas as portas possuem vidros elétricos com a função “um toque” e sistema de segurança antiesmagamento.</p>
+                            </amp-fit-text>
+                    </div>
+
+                    <div class="slide">
+                            <amp-img src="assets/img/interior/cambio.png" width="450" height="300" ></amp-img>
+                            <amp-fit-text layout="responsive" width="450" height="300">
+                                <p class="p-carousel">Câmbio CVT com Paddle Shift </p>
+                                <p class="p-sub-caroulsel">O câmbio com transmissão CVT de 7 velocidade com Paddle Shift (aletas) proporciona conforto ao trocar de marchas.</p>
+                            </amp-fit-text>
+                    </div>
+                </amp-carousel>
+            </section>
+        </article>
+        
+
+        <article>
+            <section class="section-7">
+                <div class="">
+                    <p class="title-honda">
+                        PRONTO PARA TER UM HONDA?
+                    </p>
+                    <p class="p-sub-honda">
+                        Conheça os últimos grandes lançamentos da honda.
+                    </p>
+                </div>
+                <div>
+                    <!-- <amp-accordion id="myAccordion">
+                        <section id="section1" on="expand:myAccordion.expand(section='section2')">
+                           <amp-img src="assets/img/icons/ping2.png" alt="Logo" width="30" height="50"> </amp-img>
+                           <div>
+                                <amp-img src="assets/img/icons/ping2.png" alt="Logo" width="30" height="50"> </amp-img>
+                                <amp-img src="assets/img/icons/ping2.png" alt="Logo" width="30" height="50"> </amp-img>
+                           </div>
+                        </section>
+                      </amp-accordion> -->
+                </div>
+                <div class="div-btn-carros flex-center align-center">
+                    <a href="" class="btn-conheca">CONHEÇA MAIS</a>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <section class="section-8"> 
+                <div>
+                    <div class="div-ping div-cor">
+                        <div class="align-center flex-center">
+                            <amp-img src="assets/img/icons/ping2.png" alt="Logo" width="30" height="50"></amp-img>
+                            <div class="div-encontre">
+                                <p class="p-title-ping">Encontre uma</p>
+                                <p class="p-sub-ping">CONCESSIONÁRIA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-contato div-cor">
+                        <div class="contato-logo">
+                            <p class="p-title-fone">CENTRAL DE ATENDIMENTO</p>
+                            <p class="p-fone">(31) 3123-1234</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="p-siga">SIGA A BANZAI NAS REDES SOCIAIS</p>
+                </div>
+                <div class="flex-center">
+                    <amp-img class="social-icons"  src="assets/img/icons/facebook.png" alt="Facebook" width="50" height="50"></amp-img>
+                    <amp-img  class="social-icons" src="assets/img/icons/instagram.png" alt="Instagram" width="50" height="50"></amp-img>
+                    <amp-img  class="social-icons" src="assets/img/icons/twitter.png" alt="Twitter" width="50" height="50"></amp-img>
+                </div>
+            </section>
+        </article>
+
+        <footer>
+            <section class="section-9">
+                <div class="flex-center div-logos">
+                    <amp-img src="assets/img/logos/logo.png" alt="Logo" width="200" height="52"></amp-img> 
+                </div>
+                <div class="flex-center div-logos">
+                    <amp-img src="assets/img/logos/ibama.png" alt="Ibama" width="273" height="53"></amp-img>
+                </div>
+            </section>
+        </footer>
+
+    </body>
+</html>
