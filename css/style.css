@@ -397,7 +397,7 @@ select[name=horario]{
 .row-logo-mobile img{
     max-width: 200px;
 }
-.section-2-mobile, .section-4-mobile, .section-6-mobile, .section-5-mobile{
+.section-2-mobile, .section-4-mobile, .section-6-mobile, .section-5-mobile, .section-logo-mobile{
     display: none;
 }
 .section-2-mobile{
